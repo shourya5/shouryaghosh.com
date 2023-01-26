@@ -25,7 +25,7 @@ export default function About() {
                     <p className="py-0 leading-loose font-normal text-lg ">I am an undergraduate student currently in his junior year majoring in physics with a concetration in computational physics.
                     I have conducted research in condensed matter physics using the mathematica programming language.I am also an active contributor to FOSS projects like the
                     Rust programming language,pandas(the python data science library) and the LLVM project.
-                    I am also currently seeking internships in software engineering and data science roles and will be also seeking new grad roles after I graduate
+                    I am also currently seeking internships in software engineering and data science roles and will be also seeking new grad roles before I graduate.
                     Feel free to contact me for any opportunities,and do check out my personal coding projects.</p>
                 </div>
             </div>

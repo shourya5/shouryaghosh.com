@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Footer from "./components/footer";
 import Navbar from "./components/navbar";
 
@@ -31,8 +32,12 @@ const OSS  = [
   }
 ]
  
-const Experience = () => {
+export default function Experience () {
+  useEffect(() => {
+    document.title = 'Experience';
+  }, []);
   return (
+    
     <>
     <Navbar></Navbar>
     <div className="p-4  min-h-screen bg-base-200">
@@ -70,4 +75,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+
