@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import Navbar from './components/navbar';
 import Footer from './components/footer';
@@ -37,7 +37,7 @@ const ContactUs = () => {
       <h1 className="text-5xl font-bold whitespace-nowrap md:mx-32 py-8" >Contact Me:</h1>
       <div className='grid grid-flow-col auto-cols-max gap-4 place-content-center'>
     <a href = 'mailto:shourya5@illinois.edu'>
-    <svg className = ' m-4 dark:fill-white' xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#2c3e50" fill="none" strokeLinecap="round" strokeLinejoin="round">
+    <svg className = ' m-4 dark:fill-[#b5bdca]' xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#2c3e50" fill="none" strokeLinecap="round" strokeLinejoin="round">
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
   <rect x="3" y="5" width="18" height="14" rx="2" />
   <polyline points="3 7 12 13 21 7" />
