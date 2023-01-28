@@ -1,2 +1,0 @@
-- name: Wait for commit statuses
-  uses: WyriHaximus/github-action-wait-for-status@v1.7.0
