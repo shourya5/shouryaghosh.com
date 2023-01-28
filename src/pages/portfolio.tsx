@@ -20,11 +20,14 @@ export default function Portfolio() {
       <><Navbar></Navbar>
       <div className="p-4  min-h-screen bg-base-200">
         <h1 className="text-3xl text-center font-extrabold pb-10 pt-4">Portfolio</h1>
-        <div className="flex flex-wrap gap-8">
-        <a href="https://github.com/shourya5/Calendar_bot"><figure className='h-full w-full'><img className = 'invert-0 'src={light1} alt='git1' width={400 * 1.12} height = {120 * 1.12}/></figure></a>
-        <a href = 'https://github.com/shourya5/FireStorm'><figure className='h-full w-full'><img className = 'invert-0'src={light2} alt='git2' width={400 * 1.12} height = {120 * 1.12}/></figure></a>
-        <a href = 'https://github.com/shourya5/shouryaghosh.com'><figure className='h-full w-full'><img className = 'invert-0 'src={light3} alt='git2' width={400 * 1.12} height = {120 * 1.12}/></figure></a>
-  
+        <div className="container mx:auto">
+        <div className="grid grid-cols-1 grid-flow-row md:grid-cols-2 lg:grid-cols-3 gap-6 content-center m-3">
+        
+        <a href="https://github.com/shourya5/Calendar_bot"><figure className=''><img className = 'invert-0 px-'src={light1} alt='git1' width={400 * 1.12} height = {120 * 1.12}/></figure></a>
+        <a href = 'https://github.com/shourya5/FireStorm'><figure className=''><img className = 'invert-0'src={light2} alt='git2' width={400 * 1.12} height = {120 * 1.12}/></figure></a>
+        <a href = 'https://github.com/shourya5/shouryaghosh.com'><figure className=''><img className = 'invert-0 'src={light3} alt='git2' width={400 * 1.12} height = {120 * 1.12}/></figure></a>
+        </div>
+        
       </div>
       </div>
       <Footer></Footer>
