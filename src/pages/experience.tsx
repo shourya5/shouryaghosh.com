@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { useEffect } from "react";
 import Footer from "./components/footer";
 import Navbar from "./components/navbar";
@@ -33,12 +34,15 @@ const OSS  = [
 ]
  
 export default function Experience () {
-  useEffect(() => {
-    document.title = 'Experience';
-  }, []);
   return (
     
     <>
+    <div>
+      <Head>
+        <title>Experience | Shourya Ghosh</title>
+      </Head>
+     
+    </div>
     <Navbar></Navbar>
     <div className="p-4  min-h-screen bg-base-200">
       <h1 className="text-3xl text-center font-extrabold">Experience</h1>
@@ -60,7 +64,7 @@ export default function Experience () {
       {OSS.map((repo) => (
         <div key = {repo.Name} className = 'p-4'>
           <h2 className="text-xl font-bold"><a href= {repo.Link}>{repo.Name}</a></h2>
-          <h3 className="text-lg font-semibold"><a href= {repo.Link}>{repo.Link}</a></h3>
+          <h3 className="text-lg font-semibold"><a className="link link-hover" href= {repo.Link}>{repo.Link}</a></h3>
           <ul className="list-none pl-2">
             {repo.Description.map((desc) => (
               <li key={desc}>{desc}</li>

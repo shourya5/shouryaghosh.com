@@ -11,11 +11,15 @@ import React, { useEffect } from 'react';
 import Footer from './components/footer'
 
 export default function Home() {
-  useEffect(() => {
-    document.title = 'Intro | Home';
-  }, []);
+ 
   return (
    <>
+   <div>
+      <Head>
+        <title>Home | Shourya Ghosh</title>
+      </Head>
+     
+    </div>
    <Navbar></Navbar>
    <Hero></Hero>
    <Footer></Footer>

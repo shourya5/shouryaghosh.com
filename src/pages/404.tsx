@@ -1,11 +1,15 @@
+import Head from "next/head";
 import Link from "next/link";
 import React from "react";
 import { useEffect } from "react";
 
 export default function Custom404() {
-    useEffect(() => {
-        document.title = '404 page';
-      }, []);
+  <div>
+  <Head>
+    <title>Not Found | Shourya Ghosh</title>
+  </Head>
+ 
+</div>
     return (<div
         className="
           flex

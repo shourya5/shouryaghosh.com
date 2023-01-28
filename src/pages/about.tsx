@@ -2,13 +2,18 @@ import Navbar from "./components/navbar"
 import Image from "next/image"
 import Footer from "./components/footer"
 import { useEffect } from "react";
+import Head from "next/head";
 // eslint-disable-next-line import/no-anonymous-default-export
 export default function About() {
-    useEffect(() => {
-        document.title = 'About Me';
-      }, []);
+   
     return(
         <>
+        <div>
+      <Head>
+        <title>My page title</title>
+      </Head>
+     
+    </div>
         <Navbar></Navbar>
         
          <div className="hero min-h-screen bg-base-200">
@@ -29,7 +34,7 @@ export default function About() {
                     Feel free to contact me for any opportunities,and do check out my personal coding projects.   
                     <br></br>
                     <br></br>
-                    <a href="/Shourya_resume.pdf">Click here to download my resume</a>
+                    <a className = 'link link-hover'href="/Shourya_resume.pdf">Click here to download my resume</a>
                     <br></br>
                     </p>
                 </div>
