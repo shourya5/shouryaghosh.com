@@ -16,7 +16,7 @@ export default function About() {
             <div className="hero-content text-start flex-col">
             <div className="avatar py-3">
   <div className="w-64 rounded-full ring ring-primary ring-offset-base-200 ring-offset-2 z-0 ">
-    <Image src="/about.jpeg" height={500} width={500} alt = "profile image" />
+    <Image priority src="/about.jpeg" height={500} width={500} alt = "profile image" />
   </div>
 </div>
                 <div className="max-w-md text-center">
@@ -26,7 +26,12 @@ export default function About() {
                     I have conducted research in condensed matter physics using the mathematica programming language.I am also an active contributor to FOSS projects like the
                     Rust programming language,pandas(the python data science library) and the LLVM project.
                     I am also currently seeking internships in software engineering and data science roles and will be also seeking new grad roles before I graduate.
-                    Feel free to contact me for any opportunities,and do check out my personal coding projects.</p>
+                    Feel free to contact me for any opportunities,and do check out my personal coding projects.   
+                    <br></br>
+                    <br></br>
+                    <a href="/Shourya_resume.pdf">Click here to download my resume</a>
+                    <br></br>
+                    </p>
                 </div>
             </div>
         </div>

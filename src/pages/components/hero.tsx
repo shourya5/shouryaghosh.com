@@ -3,7 +3,7 @@ export default function Hero() {
     return(
         <div className="hero min-h-screen bg-base-200">
         <div className="hero-content flex-col lg:flex-row space-x-8">
-          <Image src="/profile.jpeg" className="max-w-sm rounded-full shadow-2xl" alt = "profile image" width={300} height = {300}/>
+          <Image src="/profile.jpeg" className="max-w-sm rounded-full shadow-2xl" priority alt = "profile image" width={300} height = {300}/>
           <div>
             <h1 className="text-5xl font-bold gr max-w-md:">Hi There! 👋</h1>
             <p className="py-6 font-normal  text-lg whitespace-normal "><strong>My name is Shourya Ghosh </strong>
