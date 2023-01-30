@@ -10,7 +10,7 @@ export default function About() {
         <>
         <div>
       <Head>
-        <title>About Me</title>
+        <title>About Me | Shourya Ghosh</title>
       </Head>
      
     </div>
