@@ -10,7 +10,7 @@ export default function About() {
         <>
         <div>
       <Head>
-        <title>My page title</title>
+        <title>About Me</title>
       </Head>
      
     </div>
